@@ -8,7 +8,10 @@ function Pet(name,type,age,color,breed,status){
   this.status = status;
 };
 
-
+// function test(name){
+//   alert();
+//     // $("#")last().toggle();
+// };
 
 
 $(document).ready(function() {
@@ -23,8 +26,22 @@ $(document).ready(function() {
 
     newPet = new Pet (inputtedName,inputtedType,inputtedAge,inputtedColor,inputtedBreed,"available");
 
-    $("#showPet h3").text(newPet.name);
 
+    // $("#showPet h3").append("<span class='newPet'>"+newPet.name+"</span>");
+    $("#showPet").after("<h3 id="+newPet.name+">"+newPet.name+"</h3>");
+    //
+    $("h3#"+newPet.name).append("<li class="+newPet.name+">" + newPet.type + "</li>");
+    // // $("this").append("<li>" + newPet.age + "</li>");
+    // // $("this").append("<li>" + newPet.color + "</li>");
+    // // $("this").append("<li>" + newPet.breed + "</li>");
+    $("."+newPet.name).show();
+
+
+    $("h3#"+newPet.name).last().click(function(){
+      $(this).find("li").toggle();
+      console.log(this);
+
+    });
 
 
   });
