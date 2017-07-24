@@ -1,7 +1,7 @@
-# Pizza-Shop
+# Pet Adoption
 ### Intro to Programming Independent Project for Epicodus Week 4, 07.21.2017
 
-#### By Jessica Sheridan
+#### By Jessica Sheridan Shyamal Beth
 
 ## Description
 
