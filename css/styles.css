@@ -1,0 +1,9 @@
+.animal {
+  border: 2px solid black;
+  padding: 20px;
+  width: 600px;
+}
+.jumbotron {
+  background-image: url("../img/adopt.jpg");
+  height: 400px;
+}
