@@ -7,6 +7,7 @@
 }
 #petAdopt {
   background-color: #ffffcc;
+  border-radius: 8px;
 }
 .jumbotron {
   background-image: url("../img/adopt.jpg");
@@ -37,4 +38,12 @@ body{
 
 #register{
   margin-right: 20px;
+}
+#showPet {
+  display: none;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ffffcc;
+  height: 200px;
+  width: 200px;
 }
