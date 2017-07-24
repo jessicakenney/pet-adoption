@@ -16,6 +16,8 @@
 }
 h1 {
   text-align: center;
+  color: white;
+  font-family: 'Arvo', serif;
 }
 .newPet:hover {
   color: #000099;
@@ -27,4 +29,12 @@ h1 {
 .buttons {
  text-align: center;
  padding-bottom: 30px;
+}
+
+body{
+  background-color: #2e1300;
+}
+
+#register{
+  margin-right: 20px;
 }
