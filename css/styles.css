@@ -1,18 +1,30 @@
 .animal {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   padding: 20px;
   width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+#petAdopt {
+  background-color: #ffffcc;
+}
 .jumbotron {
   background-image: url("../img/adopt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
 }
-
+h1 {
+  text-align: center;
+}
 .newPet:hover {
   color: #000099;
   text-decoration-line: underline;
 }
 .btn {
   border-radius: 10px;
+}
+.buttons {
+ text-align: center;
+ padding-bottom: 30px;
 }
