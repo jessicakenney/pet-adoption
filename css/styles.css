@@ -1,18 +1,49 @@
 .animal {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   padding: 20px;
   width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+#petAdopt {
+  background-color: #ffffcc;
+  border-radius: 8px;
+}
 .jumbotron {
   background-image: url("../img/adopt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
 }
-
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Arvo', serif;
+}
 .newPet:hover {
   color: #000099;
   text-decoration-line: underline;
 }
 .btn {
   border-radius: 10px;
+}
+.buttons {
+ text-align: center;
+ padding-bottom: 30px;
+}
+
+body{
+  background-color: #2e1300;
+}
+
+#register{
+  margin-right: 20px;
+}
+#showPet {
+  display: none;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ffffcc;
+  height: 200px;
+  width: 200px;
 }
