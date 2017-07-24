@@ -30,11 +30,12 @@ $(document).ready(function() {
     // $("#showPet h3").append("<span class='newPet'>"+newPet.name+"</span>");
     $("#showPet").after("<h3 id="+newPet.name+">"+newPet.name+"</h3>");
     //
-    $("h3#"+newPet.name).append("<li class="+newPet.name+">" + newPet.type + "</li>");
-    // // $("this").append("<li>" + newPet.age + "</li>");
-    // // $("this").append("<li>" + newPet.color + "</li>");
-    // // $("this").append("<li>" + newPet.breed + "</li>");
-    $("."+newPet.name).show();
+    $("#"+newPet.name).append("<li>" + newPet.type + "</li>");
+    $("#"+newPet.name).append("<li>" + newPet.age + "</li>");
+    $("#"+newPet.name).append("<li>" + newPet.color + "</li>");
+    $("#"+newPet.name).append("<li>" + newPet.breed + "</li>");
+
+    $("#"+newPet.name+ "> li").hide();
 
 
     $("h3#"+newPet.name).last().click(function(){
