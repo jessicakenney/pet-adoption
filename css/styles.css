@@ -3,7 +3,13 @@
   padding: 20px;
   width: 600px;
 }
+
 .jumbotron {
   background-image: url("../img/adopt.jpg");
   height: 400px;
+}
+
+.newPet:hover {
+  color: #000099;
+  text-decoration-line: underline;
 }
